@@ -37,7 +37,7 @@ const About = () => {
               <img
                 width={636}
                 height={614}
-                src="/images/about/profile-pic.png"
+                src="/images/about/profile-pic-about.jpeg"
                 alt="Sanjay Chauhan – Frontend & CMS Web Developer"
               />
             </figure>

@@ -23,7 +23,7 @@ const Hero = () => {
               height={526}
               className="profile-pic wow fadeInLeft"
               data-wow-delay=".9s"
-              src="/images/hero/profile-pic.png"
+              src="/images/hero/profile-pic.jpeg"
               alt="Sanjay Chauhan - Web Developer"
             />
           </div>

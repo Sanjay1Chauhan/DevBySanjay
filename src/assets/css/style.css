@@ -1718,7 +1718,7 @@ h6 {
 
 .services .service-thumb {
   font-family: var(--ff-syne);
-  font-size: 96px;
+  font-size: 65px;
   font-style: normal;
   font-weight: 700;
   line-height: 110%;
@@ -3714,4 +3714,4 @@ footer a {
 /* Dark mode overrides for Experience */
 body.dark .timeline-header h5 {
   color: var(--clr-white);
-}
+}
