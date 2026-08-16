@@ -1,5 +1,7 @@
 // src/config/siteConfig.ts
 
+const BASE = "/DevBySanjay";
+
 export const siteConfig = {
   // ============================================
   // Basic Branding
@@ -14,9 +16,9 @@ export const siteConfig = {
   // ============================================
   // Logo Paths (Public Folder)
   // ============================================
-  logo: "/images/DevBySanjay-light-logo-v1.png",
-  logoDark: "/images/DevBySanjay-dark-logo-v1.png",
-  favicon: "/images/favicon.png",
+  logo: `${BASE}/images/DevBySanjay-light-logo-v1.png`,
+  logoDark: `${BASE}/images/DevBySanjay-dark-logo-v1.png`,
+  favicon: `${BASE}/images/favicon.png`,
 
   // ============================================
   // Contact Information

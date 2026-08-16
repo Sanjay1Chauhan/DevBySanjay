@@ -3,6 +3,8 @@ import "swiper/css";
 import { Autoplay } from "swiper/modules";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+const BASE = "/DevBySanjay";
+
 type Brand = {
   id: number;
   src: string;
@@ -10,16 +12,16 @@ type Brand = {
 };
 
 const brands: Brand[] = [
-  { id: 1, src: "/images/brands/brand-1.png", link: "#" },
-  { id: 2, src: "/images/brands/brand-2.png", link: "#" },
-  { id: 3, src: "/images/brands/brand-3.png", link: "#" },
-  { id: 4, src: "/images/brands/brand-4.png", link: "#" },
-  { id: 5, src: "/images/brands/brand-3.png", link: "#" },
-  { id: 6, src: "/images/brands/brand-1.png", link: "#" },
-  { id: 7, src: "/images/brands/brand-2.png", link: "#" },
-  { id: 8, src: "/images/brands/brand-3.png", link: "#" },
-  { id: 9, src: "/images/brands/brand-4.png", link: "#" },
-  { id: 10, src: "/images/brands/brand-3.png", link: "#" },
+  { id: 1, src: `${BASE}/images/brands/brand-1.png`, link: "#" },
+  { id: 2, src: `${BASE}/images/brands/brand-2.png`, link: "#" },
+  { id: 3, src: `${BASE}/images/brands/brand-3.png`, link: "#" },
+  { id: 4, src: `${BASE}/images/brands/brand-4.png`, link: "#" },
+  { id: 5, src: `${BASE}/images/brands/brand-3.png`, link: "#" },
+  { id: 6, src: `${BASE}/images/brands/brand-1.png`, link: "#" },
+  { id: 7, src: `${BASE}/images/brands/brand-2.png`, link: "#" },
+  { id: 8, src: `${BASE}/images/brands/brand-3.png`, link: "#" },
+  { id: 9, src: `${BASE}/images/brands/brand-4.png`, link: "#" },
+  { id: 10, src: `${BASE}/images/brands/brand-3.png`, link: "#" },
 ];
 const Brands = () => {
   return (

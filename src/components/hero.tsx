@@ -2,6 +2,7 @@ import { siteConfig } from "@/config/siteConfig";
 
 const Hero = () => {
   const { cvUrl, mailTo } = siteConfig;
+  const BASE = "/DevBySanjay";
 
   return (
     <section className="hero section-pt">
@@ -15,7 +16,7 @@ const Hero = () => {
               width={652}
               height={594}
               className="profile-bg"
-              src="/images/hero/profile-pic-bg.png"
+              src={`${BASE}/images/hero/profile-pic-bg.png`}
               alt="Profile background"
             />
             <img
@@ -23,7 +24,7 @@ const Hero = () => {
               height={526}
               className="profile-pic wow fadeInLeft"
               data-wow-delay=".9s"
-              src="/images/hero/profile-pic.jpeg"
+              src={`${BASE}/images/hero/profile-pic.jpeg`}
               alt="Sanjay Chauhan - Web Developer"
             />
           </div>
@@ -38,7 +39,7 @@ const Hero = () => {
               width={20}
               height={20}
               className="hi-icon"
-              src="/images/hero/hi.svg"
+              src={`${BASE}/images/hero/hi.svg`}
               alt="Waving hand"
             />
             <h6>&nbsp;I'm</h6>
@@ -57,7 +58,7 @@ const Hero = () => {
                 data-wow-delay=".9s"
               >
                 4+ years building high-performance websites across WordPress,
-                Shopify, Webflow &amp; React.js — delivering 35+ client projects
+                Shopify, Webflow & React.js — delivering 35+ client projects
                 from discovery to deployment.
               </p>
             </div>
@@ -100,7 +101,7 @@ const Hero = () => {
           <div className="m-content d-flex flex-wrap d-block d-md-none">
             <p className="intro-info wow fadeInUp" data-wow-delay="1.2s">
               4+ years building high-performance websites across WordPress,
-              Shopify, Webflow &amp; React.js — 35+ client projects delivered
+              Shopify, Webflow & React.js — 35+ client projects delivered
               end-to-end.
             </p>
             <a

@@ -1,6 +1,8 @@
 import { testimonialsData } from "@/lib/mockData/testimonialsData";
 import { useState } from "react";
 
+const BASE = "/DevBySanjay";
+
 const Testimonial = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
 
@@ -30,7 +32,7 @@ const Testimonial = () => {
               <img
                 width={60}
                 height={44}
-                src="/images/testimonial/quate.png"
+                src={`${BASE}/images/testimonial/quate.png`}
                 alt="quote"
               />
             </figure>
