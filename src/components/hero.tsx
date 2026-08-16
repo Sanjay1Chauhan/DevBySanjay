@@ -66,7 +66,7 @@ const Hero = () => {
           </div>
 
           {/* Desktop Buttons */}
-          <div className="d-none d-md-block">
+          <div className="d-none d-md-block" style={{ position: 'relative', zIndex: 10 }}>
             <div className="row">
               <div className="col-md-4" />
               <div className="col-md-8">
@@ -98,7 +98,7 @@ const Hero = () => {
           </h2>
 
           {/* Mobile Version */}
-          <div className="m-content d-flex flex-wrap d-block d-md-none">
+          <div className="m-content d-flex flex-wrap d-block d-md-none" style={{ position: 'relative', zIndex: 10 }}>
             <p className="intro-info wow fadeInUp" data-wow-delay="1.2s">
               4+ years building high-performance websites across WordPress,
               Shopify, Webflow & React.js — 35+ client projects delivered
