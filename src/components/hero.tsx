@@ -22,7 +22,7 @@ const Hero = () => {
             <img
               width={501}
               height={526}
-              className="profile-pic wow fadeInLeft"
+              className="profile-pic w-100 wow fadeInLeft"
               data-wow-delay=".9s"
               src={`${BASE}/images/hero/profile-pic.jpeg`}
               alt="Sanjay Chauhan - Web Developer"

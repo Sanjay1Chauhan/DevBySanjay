@@ -14,7 +14,7 @@ const Skills = () => {
           disableOnInteraction: false,
         }}
         breakpoints={{
-          0: { slidesPerView: 1 },
+          0: { slidesPerView: 2 },
           438: { slidesPerView: 2 },
           650: { slidesPerView: 3 },
           768: { slidesPerView: 3 },
