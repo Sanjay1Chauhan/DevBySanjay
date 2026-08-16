@@ -934,7 +934,7 @@
   .hero .profession {
     font-size: 54px;
     line-height: 100%;
-    top: 400px;
+    top: 520px;
     left: 0;
   }
 
@@ -952,7 +952,7 @@
   }
 
   .hero .m-content {
-    top: 377px;
+    top: 500px;
     z-index: 9;
     position: relative;
   }
@@ -1074,7 +1074,7 @@
   .hero .profession {
     font-size: 31px;
     line-height: 100%;
-    top: 363px;
+    top: 480px;
     left: -0.3%;
   }
 
@@ -1095,7 +1095,7 @@
     /* top: calc(400px - 5vw); */
     /* top: calc(340px - 5vw); */
     /* top: calc(360px - 5vw); */
-    top: calc(360px - 3vw);
+    top: calc(480px - 3vw);
     z-index: 9;
     position: relative;
   }
