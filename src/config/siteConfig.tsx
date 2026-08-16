@@ -36,7 +36,7 @@ export const siteConfig = {
   // CV Download
   // ============================================
   cvUrl:
-    "https://drive.google.com/uc?export=download&id=1nNOYVDdnpMWvgMObkNuAYkuIQt9VQecE",
+    "https://drive.google.com/file/d/19VsbDqaSgRvDUbcfo1D2ZBlnMFj1z9IK/view?usp=sharing",
 
   // ============================================
   // Social Links
